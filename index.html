@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>APSSDC-Online videos</title>
+  <link rel="icon" href="apssdc logo.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Roboto', 'sans-serif']
+          },
+          animation: {
+            fade: 'fadeIn 1s ease-out',
+            slideUp: 'slideUp 0.8s ease-out',
+            pulseSlow: 'pulse 2s ease-in-out infinite',
+            zoom: 'zoom 0.4s ease-in-out'
+          },
+          keyframes: {
+            fadeIn: {
+              '0%': { opacity: '0' },
+              '100%': { opacity: '1' },
+            },
+            slideUp: {
+              '0%': { transform: 'translateY(20px)', opacity: '0' },
+              '100%': { transform: 'translateY(0)', opacity: '1' },
+            },
+            zoom: {
+              '0%': { transform: 'scale(0.95)' },
+              '100%': { transform: 'scale(1)' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+  .stylish-button {
+    width: 100%;
+    padding: 0.7rem 1.8rem;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: #e0e7ff;
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    border-radius: 9999px; /* pill shape */
+    border: 2px solid transparent;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    box-shadow:
+      inset 0 0 8px rgba(59, 130, 246, 0.6), /* inner glow */
+      0 8px 20px rgba(37, 99, 235, 0.5),     /* outer shadow */
+      0 0 15px rgba(99, 102, 241, 0.7);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stylish-button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 9999px;
+    padding: 2px;
+    background: linear-gradient(90deg, #60a5fa, #2563eb, #3b82f6, #60a5fa);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    animation: gradientShift 3s ease infinite;
+    pointer-events: none;
+  }
+
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .stylish-button:hover {
+    transform: scale(1.08) translateY(-3px);
+    box-shadow:
+      inset 0 0 12px rgba(37, 99, 235, 0.9),
+      0 12px 28px rgba(37, 99, 235, 0.7),
+      0 0 25px rgba(59, 130, 246, 0.9);
+  }
+</style>
+
+
+
+</head>
+<body class="font-sans bg-cover bg-center bg-no-repeat" style="background-image: url('embeded\ system\ bg.jpg');">
+
+  <div class="border rounded-3xl mx-auto mt-8 max-w-6xl shadow-xl animate-fade backdrop-blur-md">
+    <!-- Header -->
+    <div class="flex items-center justify-between p-6 border-b border-gray-200 bg-white rounded-t-3xl animate-slideUp">
+      <div class="flex items-center gap-4">
+        <img src="apssdc logo.png" class="w-16 h-16 rounded-full border-2 border-blue-500 animate-pulseSlow" alt="profile" />
+        <div>
+          <h1 class="text-2xl font-bold text-gray-800">APPSDC Online Internship-Recorded Videos</h1>
+           <h2 class="text-2xl font-bold text-gray-800">Course:Embeded System</h2>
+          <p class="text-sm text-gray-500">Designed by <strong class="text-blue-600">Quantam Studios</strong> &nbsp; · &nbsp;</p>
+        </div>
+      </div>
+      <a href="https://naipunyam.ap.gov.in/" target="_blank" rel="noopener noreferrer">
+  <button class="bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-semibold px-5 py-2 rounded-full shadow-md hover:shadow-lg transition duration-300">
+    Official Website
+  </button>
+</a>
+
+    </div>
+
+    <!-- Content Cards -->
+    <div class="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Card Template (Duplicated 6 times with slight variations) -->
+      <!-- Copy/Paste Card Code -->
+      <!-- Card 1 -->
+      
+      <!-- Duplicate the above block and vary headings/images/text as needed -->
+      <!-- Card 1 -->
+      <div class="bg-white border border-gray-100 rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl animate-zoom">
+        <div class="relative bg-cover bg-center h-36" style="background-image: url('week1.png');">
+          <div class="absolute inset-0 bg-black/50 flex items-center justify-center">
+            <h3 class="text-white text-lg font-semibold text-center drop-shadow-md">WEEK 01</h3>
+          </div>
+        </div>
+        <div class="p-5">
+          <span class="text-xs text-white bg-blue-600 px-3 py-1 rounded-full shadow animate-fade">WEEK 01</span>
+<h2 class="text-base font-semibold mt-2 text-gray-800 leading-snug">APSSDC</h2>
+
+          <p class="text-sm mt-2 text-gray-700"><strong>Date :</strong> <span class="text-blue-700 font-semibold">12/05/2025 - 17/05/2025</span></p>
+
+          <a href="week1.html" target="_blank" rel="noopener noreferrer">
+            <button class="stylish-button mt-5">
+                           Enter
+            </button>
+          </a>
+        </div>
+      </div>
+
+  
+      <!-- Card 2 -->
+       <div class="bg-white border border-gray-100 rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl animate-zoom">
+        <div class="relative bg-cover bg-center h-36" style="background-image: url('week1.png');">
+          <div class="absolute inset-0 bg-black/50 flex items-center justify-center">
+            <h3 class="text-white text-lg font-semibold text-center drop-shadow-md">WEEK 02</h3>
+          </div>
+        </div>
+        <div class="p-5">
+          <span class="text-xs text-white bg-blue-600 px-3 py-1 rounded-full shadow animate-fade">WEEK 02</span>
+<h2 class="text-base font-semibold mt-2 text-gray-800 leading-snug">APSSDC</h2>
+
+          <p class="text-sm mt-2 text-gray-700"><strong>Date :</strong> <span class="text-blue-700 font-semibold">19/05/2025 - 24/05/2025</span></p>
+
+          <a href="week2.html" target="_blank" rel="noopener noreferrer">
+            <button class="stylish-button mt-5">
+                           Enter
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white border border-gray-100 rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl animate-zoom">
+        <div class="relative bg-cover bg-center h-36" style="background-image: url('week1.png');">
+          <div class="absolute inset-0 bg-black/50 flex items-center justify-center">
+            <h3 class="text-white text-lg font-semibold text-center drop-shadow-md">WEEK 03</h3>
+          </div>
+        </div>
+        <div class="p-5">
+          <span class="text-xs text-white bg-blue-600 px-3 py-1 rounded-full shadow animate-fade">WEEK 03</span>
+<h2 class="text-base font-semibold mt-2 text-gray-800 leading-snug">APSSDC</h2>
+
+          <p class="text-sm mt-2 text-gray-700"><strong>Date :</strong> <span class="text-blue-700 font-semibold">26/05/2025 - 31/05/2025</span></p>
+
+          <a href="404.html" target="_blank" rel="noopener noreferrer">
+            <button class="stylish-button mt-5">
+                           Enter
+            </button>
+          </a>
+        </div>
+      </div>
+
+    
+      <!-- Card 4 -->
+        <div class="bg-white border border-gray-100 rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl animate-zoom">
+        <div class="relative bg-cover bg-center h-36" style="background-image: url('week1.png');">
+          <div class="absolute inset-0 bg-black/50 flex items-center justify-center">
+            <h3 class="text-white text-lg font-semibold text-center drop-shadow-md">WEEK 04</h3>
+          </div>
+        </div>
+        <div class="p-5">
+          <span class="text-xs text-white bg-blue-600 px-3 py-1 rounded-full shadow animate-fade">WEEK 04</span>
+<h2 class="text-base font-semibold mt-2 text-gray-800 leading-snug">APSSDC</h2>
+
+          <p class="text-sm mt-2 text-gray-700"><strong>Date :</strong> <span class="text-blue-700 font-semibold">02/06/2025 - 07/06/2025</span></p>
+
+          <a href="404.html" target="_blank" rel="noopener noreferrer">
+            <button class="stylish-button mt-5">
+                           Enter
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+       <div class="bg-white border border-gray-100 rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl animate-zoom">
+        <div class="relative bg-cover bg-center h-36" style="background-image: url('week1.png');">
+          <div class="absolute inset-0 bg-black/50 flex items-center justify-center">
+            <h3 class="text-white text-lg font-semibold text-center drop-shadow-md">WEEK 05</h3>
+          </div>
+        </div>
+        <div class="p-5">
+          <span class="text-xs text-white bg-blue-600 px-3 py-1 rounded-full shadow animate-fade">WEEK 05</span>
+<h2 class="text-base font-semibold mt-2 text-gray-800 leading-snug">APSSDC</h2>
+
+          <p class="text-sm mt-2 text-gray-700"><strong>Date :</strong> <span class="text-blue-700 font-semibold">09/06/2025 - 14/06/2025</span></p>
+
+          <a href="404.html" target="_blank" rel="noopener noreferrer">
+            <button class="stylish-button mt-5">
+                           Enter
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+     <div class="bg-white border border-gray-100 rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl animate-zoom">
+        <div class="relative bg-cover bg-center h-36" style="background-image: url('week1.png');">
+          <div class="absolute inset-0 bg-black/50 flex items-center justify-center">
+            <h3 class="text-white text-lg font-semibold text-center drop-shadow-md">WEEK 06</h3>
+          </div>
+        </div>
+        <div class="p-5">
+          <span class="text-xs text-white bg-blue-600 px-3 py-1 rounded-full shadow animate-fade">WEEK 06</span>
+<h2 class="text-base font-semibold mt-2 text-gray-800 leading-snug">APSSDC</h2>
+
+          <p class="text-sm mt-2 text-gray-700"><strong>Date :</strong> <span class="text-blue-700 font-semibold">16/06/2025 - 21/06/2025</span></p>
+
+          <a href="404.html" target="_blank" rel="noopener noreferrer">
+            <button class="stylish-button mt-5">
+                           Enter
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="bg-white border border-gray-100 rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl animate-zoom">
+        <div class="relative bg-cover bg-center h-36" style="background-image: url('week1.png');">
+          <div class="absolute inset-0 bg-black/50 flex items-center justify-center">
+            <h3 class="text-white text-lg font-semibold text-center drop-shadow-md">WEEK 07</h3>
+          </div>
+        </div>
+        <div class="p-5">
+          <span class="text-xs text-white bg-blue-600 px-3 py-1 rounded-full shadow animate-fade">WEEK 07</span>
+<h2 class="text-base font-semibold mt-2 text-gray-800 leading-snug">APSSDC</h2>
+
+          <p class="text-sm mt-2 text-gray-700"><strong>Date :</strong> <span class="text-blue-700 font-semibold">23/06/2025 - 28/06/2025</span></p>
+
+          <a href="404.html" target="_blank" rel="noopener noreferrer">
+            <button class="stylish-button mt-5">
+                           Enter
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-white border border-gray-100 rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl animate-zoom">
+        <div class="relative bg-cover bg-center h-36" style="background-image: url('week1.png');">
+          <div class="absolute inset-0 bg-black/50 flex items-center justify-center">
+            <h3 class="text-white text-lg font-semibold text-center drop-shadow-md">WEEK 08</h3>
+          </div>
+        </div>
+        <div class="p-5">
+          <span class="text-xs text-white bg-blue-600 px-3 py-1 rounded-full shadow animate-fade">WEEK 08</span>
+<h2 class="text-base font-semibold mt-2 text-gray-800 leading-snug">APSSDC</h2>
+
+          <p class="text-sm mt-2 text-gray-700"><strong>Date :</strong> <span class="text-blue-700 font-semibold">30/06/2025 - 05/07/2025</span></p>
+
+          <a href="404.html" target="_blank" rel="noopener noreferrer">
+            <button class="stylish-button mt-5">
+                           Enter
+            </button>
+          </a>
+        </div>
+      </div>
+        <br><br>
+      </div>
+
+      
+  <br>
+</body>
+</html>
